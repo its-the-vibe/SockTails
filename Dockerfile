@@ -1,5 +1,6 @@
 # ── Build stage ───────────────────────────────────────────────────────────────
-FROM golang:1.25-alpine AS builder
+# Force AMD64 from ARM Mac
+FROM --platform=linux/amd64 golang:1.26.0-alpine AS builder
 
 WORKDIR /src
 

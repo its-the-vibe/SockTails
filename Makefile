@@ -10,7 +10,7 @@
 #   TAILSCALE_AUTHKEY – ephemeral, pre-authorised Tailscale auth key
 
 PROJECT_ID   ?= my-gcp-project
-REGION       ?= asia-southeast1
+REGION       ?= australia-southeast1
 REPO         ?= socktails
 IMAGE_NAME   ?= socktails
 TAG          ?= latest
