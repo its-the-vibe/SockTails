@@ -2,7 +2,7 @@ module github.com/its-the-vibe/socktails
 
 go 1.26.1
 
-require tailscale.com v1.96.4
+require tailscale.com v1.96.5
 
 require (
 	filippo.io/edwards25519 v1.2.0 // indirect
