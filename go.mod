@@ -1,6 +1,6 @@
 module github.com/its-the-vibe/socktails
 
-go 1.26.6
+go 1.27.0
 
 require tailscale.com v1.102.2
 
